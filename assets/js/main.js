@@ -5,6 +5,17 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+function toggleHigh(x) {
+  if(document.getElementById(x).className == "icon-box") {
+    document.getElementById(x).className += " icon-boxh"
+    // alert(document.getElementById(x).className)
+  } else (
+    document.getElementById(x).className = "icon-box"
+  )
+}
+
+
 (function() {
   "use strict";
 

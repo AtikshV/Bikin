@@ -698,17 +698,22 @@ section {
 }
 
 .services .icon-box {
-  padding: 50px 30px;
+  /* padding: 50px 30px; */
   position: relative;
   overflow: hidden;
-  background: #fff;
+  /* background: #fff; */
   transition: all 0.3s;
   border-radius: 5px;
   text-align: center;
 }
 
-.services .icon-box:hover {
-  transform: scale(1.08);
+.services .icon-boxh {
+  /* transform: scale(1.08); */
+  background: #fff;
+  padding: 2px !important;
+  margin: 0 !important;
+  /* height: 95.6%; */
+
 }
 
 .services .icon {
